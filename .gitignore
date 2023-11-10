@@ -1,1 +1,5 @@
 *.DS_Store
+
+task2_base_model.ipynb
+*.pyc
+
