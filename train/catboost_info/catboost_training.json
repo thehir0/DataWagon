@@ -1,9 +1,9 @@
 {
 "meta":{"test_sets":["test"],"test_metrics":[{"best_value":"Min","name":"CrossEntropy"},{"best_value":"Max","name":"AUC"},{"best_value":"Max","name":"Accuracy"},{"best_value":"Max","name":"F1"}],"learn_metrics":[{"best_value":"Min","name":"CrossEntropy"},{"best_value":"Max","name":"Accuracy"},{"best_value":"Max","name":"F1"}],"launch_mode":"Train","parameters":"","iteration_count":2000,"learn_sets":["learn"],"name":"experiment"},
 "iterations":[
-{"learn":[0.6200999442,0.983682331,0],"iteration":0,"passed_time":0.0317561552,"remaining_time":63.48055424,"test":[0.619989643,0.8781389708,0.9832239456,0]},
-{"learn":[0.04515326056,0.9849152434,0.2254728878],"iteration":500,"passed_time":13.34627337,"remaining_time":39.93226303,"test":[0.04738992009,0.9607922806,0.9835771257,0.1842105263]},
-{"learn":[0.04318420511,0.9857355477,0.2971926428],"iteration":1000,"passed_time":26.04141343,"remaining_time":25.98938264,"test":[0.04739589086,0.9607033719,0.9836948524,0.2130681818]},
-{"learn":[0.04154794856,0.9864526999,0.3461356093],"iteration":1500,"passed_time":39.07078819,"remaining_time":12.98888961,"test":[0.04748707219,0.9605639957,0.9837242841,0.2200282087]},
-{"learn":[0.0403032954,0.986914428,0.3764044944],"iteration":1999,"passed_time":51.56794519,"remaining_time":0,"test":[0.04762854789,0.9604558662,0.9835182624,0.209039548]}
+{"learn":[0.6093720835,0.9854015316,0.2219895288],"iteration":0,"passed_time":0.03501127587,"remaining_time":69.98754047,"test":[0.6091029295,0.9504461586,0.9832239456,0]},
+{"learn":[0.03337438308,0.9875480762,0.4523655217],"iteration":500,"passed_time":14.82519201,"remaining_time":44.35721123,"test":[0.03453319812,0.9863095284,0.9851075728,0.3198924731]},
+{"learn":[0.03009429095,0.9890364127,0.5437448896],"iteration":1000,"passed_time":30.61736686,"remaining_time":30.5561933,"test":[0.03407470423,0.9866290092,0.9854313212,0.3881334981]},
+{"learn":[0.02767860795,0.990210381,0.6069808716],"iteration":1500,"passed_time":46.91529162,"remaining_time":15.59675584,"test":[0.03402227547,0.9866399765,0.9854313212,0.3970767357]},
+{"learn":[0.02565683965,0.9910257733,0.6476374156],"iteration":1999,"passed_time":63.54717496,"remaining_time":0,"test":[0.03411316444,0.9865522385,0.9852252995,0.3995215311]}
 ]}
