@@ -7,6 +7,6 @@ def split_train_val(df: pd.DataFrame, features: list, labels: list, val_size: fl
     y = df[labels]
 
     # Split the data into training and validation sets
-    X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=val_size, random_state=seed)
+    X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=val_size, random_state=seed, stratify=y)
 
     return X_train, X_val, y_train, y_val
